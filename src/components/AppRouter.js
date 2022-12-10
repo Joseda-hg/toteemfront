@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import { menuDisplay } from "./menuDisplay"
+import { Pedidopreview } from "./Pedidopreview"
+import { Splashscreen } from "./Splashscreen"
 
 export function AppRouter() {
   return (
@@ -8,13 +10,14 @@ export function AppRouter() {
       <Router>
         <div id="Content">
           <Switch>
-            <Route exact path="/breakout">
-              {/* <Breakout /> */}
+            <Route exact path="/menuDisplay">
+              <menuDisplay />
             </Route>
             <Route exact path="/">
-              {/* <Home /> */}
+              <Pedidopreview />
             </Route>
             <Route exact path="/clicker">
+              <Splashscreen />
             </Route>
           </Switch>
         </div>

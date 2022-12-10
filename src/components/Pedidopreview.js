@@ -1,7 +1,7 @@
 import React from "react";
 // import useState from "react"
 
-export function Contact() {
+export function Pedidopreview() {
   return (
     <>
       <div>
