@@ -1,6 +1,6 @@
 import React from "react";
 
-export function menuDisplay() {
+export function MenuDisplay() {
   return (
     <>
       <div>

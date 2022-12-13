@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { menuDisplay } from "./menuDisplay"
+import { MenuDisplay } from "./MenuDisplay"
 import { Pedidopreview } from "./Pedidopreview"
 import { Splashscreen } from "./splashscreen"
 
@@ -11,7 +11,7 @@ export function AppRouter() {
         <div id="Content">
           <Switch>
             <Route exact path="/menuDisplay">
-              <menuDisplay />
+              <MenuDisplay />
             </Route>
             <Route exact path="/">
               <Pedidopreview />
