@@ -16,7 +16,7 @@ export function MenuDisplay() {
             placeholder="Correo Electronico" required={true}
           ></input>
         </div>
-
+<p></p>
         <label htmlFor="exampleInputEmail1">Nombre</label>
         <input
           type="text"
