@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { MenuDisplay } from "./MenuDisplay"
+import { MenuDisplay } from "./menuDisplay"
 import { Pedidopreview } from "./Pedidopreview"
-import { Splashscreen } from "./Splashscreen"
+import { Splashscreen } from "./splashscreen"
 
 export function AppRouter() {
   return (
