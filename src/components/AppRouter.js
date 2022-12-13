@@ -10,13 +10,13 @@ export function AppRouter() {
       <Router>
         <div id="Content">
           <Switch>
-            <Route exact path="/menuDisplay">
+            <Route exact path="/menudisplay">
               <MenuDisplay />
             </Route>
-            <Route exact path="/">
+            <Route exact path="/pedidopreview">
               <Pedidopreview />
             </Route>
-            <Route exact path="/clicker">
+            <Route exact path="/">
               <Splashscreen />
             </Route>
           </Switch>
