@@ -10,13 +10,12 @@ export function MenuDisplay() {
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Direccion de correo electronico</label>
           <input type="email" name="Correo electronico"
-            className="form-control"  
+            className="form-control"
             id="direccionMail"
             aria-describedby="emailHelp"
             placeholder="Correo Electronico" required={true}
           ></input>
         </div>
-<p></p>
         <label htmlFor="exampleInputEmail1">Nombre</label>
         <input
           type="text"
@@ -34,7 +33,7 @@ export function MenuDisplay() {
           placeholder="Escribe tu mensaje aqui..." required={true}
           name="Mensaje"
         ></textarea>
-{/* 
+        {/* 
         <div className="form-check">
           <input
             type="checkbox"
