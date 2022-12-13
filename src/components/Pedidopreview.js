@@ -5,7 +5,7 @@ export function Pedidopreview() {
   return (
     <>
       <div>
-        <h1 id="PageTitle">Formulario de contacto</h1>
+        <h1 id="PageTitle">Formulario de contacto hola</h1>
       </div>
       <form action="https://formbold.com/s/3Gjv9" method="POST">
         <div className="form-group">
