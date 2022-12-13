@@ -36,7 +36,8 @@ export function Splashscreen() {
           placeholder="Escribe tu mensaje aqui..." required={true}
           name="Mensaje"
         ></textarea>
-{/* 
+{
+/* 
         <div className="form-check">
           <input
             type="checkbox"
@@ -51,6 +52,7 @@ export function Splashscreen() {
         */}
         {/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
         <br />
+        
         <button
           type="submit"
           className="btn btn-primary btn-block"
