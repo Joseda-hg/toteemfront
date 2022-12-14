@@ -11,17 +11,21 @@ import { Link } from "react-router-dom";
 
 export function Splashscreen() {
   return (
-    <>
+    
+    <div>
+     <img className="" src={fondo} alt=""/>
       <img className="logo" src={logo} alt="" />
-      <Link id="logo" className="" to="/menuDisplay">
-        <img className="logo" src={touch} alt="" />
+      <Link id="touch" className="" to="/menuDisplay">
+        <img className="touch" src={touch} alt="" />
       </Link>
       <img className="cerveza" src={cerveza} alt="" />
       <img className="hamburguesa" src={hamburguesa} alt="" />
       <img className="papas" src={papas} alt="" />
       <img className="pizza" src={pizza} alt="" />
-      <img className="fondo" src={fondo} alt="" />
+      </div>
+      
+    
 
-    </>
+  
   );
 }
