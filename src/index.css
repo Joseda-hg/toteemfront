@@ -6,8 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 1080px;
- height: 1920px;
+  
 }
 
 code {
@@ -19,19 +18,18 @@ code {
   height: 377px;
  display: block;
  position: absolute;
- margin:auto;
  top: 223px;
- right:250px; 
+ left:183px; 
 }
 
 .gridImg{
-  width: 20%;
+  width: 50%;
 }
 .fondo{
 background-attachment: fixed;
-transform: rotate(50deg);
+transform: rotate(180deg);
 width: 1080px;
-height: 1920px;
+height:1920px;
 }
 .hamburguesa{
   width: 316px;
@@ -64,4 +62,22 @@ height: 1920px;
  position: absolute;
  left: 909px; 
  top: 801px;
+}
+.touch{
+  width: 288px;
+  height: 407px;
+ display: block;
+ position: absolute;
+ left: 428px; 
+ top: 1395px;
+ 
+}
+.cachaña{
+  width: 639px;
+  height:576px;
+  display: block;
+ position: absolute;
+ left: 221px; 
+ top: 1202px;
+ position:absolute;
 }
