@@ -3,7 +3,7 @@ import React from "react";
 export function MenuDisplay() {
   return (
     <>
-      <div>
+      <div>   
         <h1 id="PageTitle">Formulario de contacto</h1>
       </div>
       <form action="https://formbold.com/s/3Gjv9" method="POST">

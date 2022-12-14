@@ -5,7 +5,7 @@ import React from "react";
 export function Splashscreen() {
   return (
     <>
-      <p>Hola Mundo</p>
+      <img src="../imagenes/logo.jpg" alt="" />
     </>
   );
 }
