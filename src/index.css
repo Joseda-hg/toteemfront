@@ -6,14 +6,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 1080px;
+ height: 1920px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
 .logo {
   width: 714px;
   height: 377px;
@@ -21,10 +21,7 @@ code {
  position: absolute;
  margin:auto;
  top: 223px;
- right:250px;
- 
- 
-  
+ right:250px; 
 }
 
 .gridImg{
@@ -32,6 +29,39 @@ code {
 }
 .fondo{
 background-attachment: fixed;
-size:1080px,1920px;
-transform: rotate(90deg);
+transform: rotate(50deg);
+width: 1080px;
+height: 1920px;
+}
+.hamburguesa{
+  width: 316px;
+  height: 233px;
+  display: block;
+ position: absolute;
+ top: 813px;
+ left: -98px; 
+}
+.cerveza{
+  width: 284px;
+  height: 346px;
+  display: block;
+ position: absolute;
+ top: 687px;
+ left: 236px; 
+}
+.papas{
+  width: 441px;
+  height: 217px;
+  display: block;
+ position: absolute;
+ left: 472px; 
+ top: 821px;
+}
+.pizza{
+  width: 463px;
+  height: 232px;
+  display: block;
+ position: absolute;
+ left: 909px; 
+ top: 801px;
 }
