@@ -1,49 +1,27 @@
 import React from "react";
 // import useState from "react"
-
+import observacion from "../imagenes/observacion.png"
+import pagar from "../imagenes/pagar.png"
+import seguir from "../imagenes/seguir.png"
+import logo from "../imagenes/logo.png"
+import bandeja from "../imagenes/bandeja.png"
+import menos from "../imagenes/menos.jpg"
+import mas from "../imagenes/mas.png"
 export function Pedidopreview() {
   return (
     <>
-      <div>
-        <h1 id="PageTitle">Formulario de contacto hola</h1>
-      </div>
-      <form action="https://formbold.com/s/3Gjv9" method="POST">
-        <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Direccion de correo electronico</label>
-          <input type="email" name="Correo electronico"
-            className="form-control"  
-            id="direccionMail"
-            aria-describedby="emailHelp"
-            placeholder="Correo Electronico" required={true}
-          ></input>
-        </div>
-
-        <label htmlFor="exampleInputEmail1">Nombre</label>
-        <input
-          type="text"
-          className="form-control"
-          id="Nombre"
-          aria-describedby="emailHelp"
-          placeholder="Nombre" required={true}
-          name="Nombre"
-        ></input>
-        <label htmlFor="exampleInputEmail1">Mensaje</label>
-        <textarea
-          className="form-control"
-          id="mensaje"
-          aria-describedby="emailHelp"
-          placeholder="Escribe tu mensaje aqui..." required={true}
-          name="Mensaje"
-        ></textarea>
-        <br />
-        <button
-          type="submit"
-          className="btn btn-primary btn-block"
-          id="formButton"
-
-          // onClick={ContactHandler}
-          value={"Enviar"}> Enviar formulario</button>
-      </form>
+    <h1>Pedidos</h1>
+    <p>Cantidad</p>
+    <p>Producto</p>
+    <p>Precio</p>
+    <p>Total de Compra</p>
+    <img className="logo" src={observacion} alt="" />
+    <img className="logo" src={pagar} alt="" />
+    <img className="logo" src={seguir} alt="" />
+    <img className="logo" src={logo} alt="" />
+    <img className="logo" src={bandeja} alt="" />
+    <img className="logo" src={menos} alt="" />
+    <img className="logo" src={mas} alt="" />
     </>
   );
 }
