@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { MenuDisplay } from "./menuDisplay"
 import { Pedidopreview } from "./Pedidopreview"
 import { Splashscreen } from "./splashscreen"
+import { AgregarObservacion } from "./agregarObservacion"
+import { VistaDetalle } from "./vistaDetalle";
+import { ConfirmacionCompra } from "./confirmacionCompra";
+
 export function AppRouter() {
   return (
     <>
@@ -17,6 +21,15 @@ export function AppRouter() {
             </Route>
             <Route exact path="/">
               <Splashscreen />
+            </Route>
+            <Route exact path="/agregar">
+              <AgregarObservacion />
+            </Route>
+            <Route exact path="/vista">
+              <VistaDetalle />
+            </Route>
+            <Route exact path="/confirmacion">
+              <ConfirmacionCompra />
             </Route>
           </Switch>
         </div>
