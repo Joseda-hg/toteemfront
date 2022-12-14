@@ -7,12 +7,15 @@ import hamburguesa from '../imagenes/hamburguesas.png'
 import papas from '../imagenes/papas fritas.png'
 import pizza from '../imagenes/pizza.png'
 import fondo from '../imagenes/fondo.png'
+import { Link } from "react-router-dom";
 
 export function Splashscreen() {
   return (
     <>
       <img className="logo" src={logo} alt="" />
-      <img className="logo" src={touch} alt="" link="menuDisplay"/>
+      <Link id="logo" className="navbar-brand" to="/menuDisplay">
+        <img className="logo" src={touch} alt="" />
+      </Link>
       <img className="logo" src={cerveza} alt="" />
       <img className="logo" src={hamburguesa} alt="" />
       <img className="logo" src={papas} alt="" />

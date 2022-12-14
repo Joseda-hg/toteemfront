@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { MenuDisplay } from "./menuDisplay"
 import { Pedidopreview } from "./Pedidopreview"
 import { Splashscreen } from "./splashscreen"
-
 export function AppRouter() {
   return (
     <>
