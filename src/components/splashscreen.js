@@ -16,11 +16,11 @@ export function Splashscreen() {
       <Link id="logo" className="" to="/menuDisplay">
         <img className="logo" src={touch} alt="" />
       </Link>
-      <img className="logo" src={cerveza} alt="" />
-      <img className="logo" src={hamburguesa} alt="" />
-      <img className="logo" src={papas} alt="" />
-      <img className="logo" src={pizza} alt="" />
-      <img className="logo" src={fondo} alt="" />
+      <img className="cerveza" src={cerveza} alt="" />
+      <img className="hamburguesa" src={hamburguesa} alt="" />
+      <img className="papas" src={papas} alt="" />
+      <img className="pizza" src={pizza} alt="" />
+      <img className="fondo" src={fondo} alt="" />
 
     </>
   );
