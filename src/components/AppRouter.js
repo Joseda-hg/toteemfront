@@ -6,11 +6,12 @@ import { Splashscreen } from "./splashscreen"
 import { AgregarObservacion } from "./agregarObservacion"
 import { VistaDetalle } from "./vistaDetalle";
 import { ConfirmacionCompra } from "./confirmacionCompra";
-
+import { Navbar } from "./navbar";
 export function AppRouter() {
   return (
     <>
       <Router>
+        <Navbar />
         <div id="Content">
           <Switch>
             <Route exact path="/menuDisplay">
@@ -37,29 +38,3 @@ export function AppRouter() {
     </>
   );
 }
-
-
-
-
-
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// import {
-//   createBrowserRouter,
-//   RouterProvider,
-//   Route,
-// } from "react-router-dom";
-// import "./index.css";
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <div>Hello world!</div>,
-//   },
-// ]);
-
-// ReactDOM.createRoot(document.getElementById("root")).render(
-//   <React.StrictMode>
-//     <RouterProvider router={router} />
-//   </React.StrictMode>
-// );
