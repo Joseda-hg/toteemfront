@@ -13,7 +13,7 @@ export function Splashscreen() {
   return (
     <>
       <img className="logo" src={logo} alt="" />
-      <Link id="logo" className="navbar-brand" to="/menuDisplay">
+      <Link id="logo" className="" to="/menuDisplay">
         <img className="logo" src={touch} alt="" />
       </Link>
       <img className="logo" src={cerveza} alt="" />
