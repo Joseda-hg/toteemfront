@@ -23,7 +23,7 @@ code {
 }
 
 .gridImg {
-  width: 50%;
+  width: 100px;
 }
 
 .fondo {
@@ -128,6 +128,13 @@ html {
   height: 100px;
 }
 
-.Observacion{
+.Observacion {
   background-color: hsla(178, 98%, 23%, 0.60)
+}
+
+.botonConfirmacion {
+  border: none;
+  color: white;
+  background-color: #007d79de;
+  padding: 15px;
 }
