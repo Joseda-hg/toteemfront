@@ -1,0 +1,24 @@
+
+.logo_2{
+   width: 236px;
+  height:125px;
+  display: block;
+ position: absolute;
+ left: 17px; 
+ top: 1730px;
+}
+.bandeja{
+   width: 140px;
+   height:126px;
+   display: block;
+  position: absolute;
+  left: 911px; 
+  top: 23px;
+}
+.fondo{
+   top: 0px;
+   background-attachment: fixed;
+   transform: rotate(180deg);
+   width: 1080px;
+   height:1920px;
+   }
