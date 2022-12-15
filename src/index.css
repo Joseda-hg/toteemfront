@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,78 +5,129 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .logo {
   width: 714px;
   height: 377px;
- display: block;
- position: absolute;
- top: 223px;
- left:183px; 
+  display: block;
+  position: absolute;
+  top: 223px;
+  left: 183px;
 }
 
-.gridImg{
+.gridImg {
   width: 50%;
 }
-.fondo{
-background-attachment: fixed;
-transform: rotate(180deg);
-width: 1080px;
-height:1920px;
+
+.fondo {
+  background-attachment: fixed;
+  transform: rotate(180deg);
+  /* width: 1080px; */
+  /* height:1920px; */
 }
-.hamburguesa{
+
+
+.hamburguesa {
   width: 316px;
   height: 233px;
   display: block;
- position: absolute;
- top: 813px;
- left: -98px; 
+  position: absolute;
+  top: 813px;
+  left: -98px;
 }
-.cerveza{
+
+.cerveza {
   width: 284px;
   height: 346px;
   display: block;
- position: absolute;
- top: 687px;
- left: 236px; 
+  position: absolute;
+  top: 687px;
+  left: 236px;
 }
-.papas{
+
+.papas {
   width: 441px;
   height: 217px;
   display: block;
- position: absolute;
- left: 472px; 
- top: 821px;
+  position: absolute;
+  left: 472px;
+  top: 821px;
 }
-.pizza{
+
+.pizza {
   width: 463px;
   height: 232px;
   display: block;
- position: absolute;
- left: 909px; 
- top: 801px;
+  position: absolute;
+  left: 909px;
+  top: 801px;
 }
-.touch{
+
+.touch {
   width: 288px;
   height: 407px;
- display: block;
- position: absolute;
- left: 428px; 
- top: 1395px;
- 
-}
-.cachaña{
-  width: 639px;
-  height:576px;
   display: block;
- position: absolute;
- left: 221px; 
- top: 1202px;
- position:absolute;
+  position: absolute;
+  left: 428px;
+  top: 1395px;
+
+}
+
+.cachaña {
+  width: 639px;
+  height: 576px;
+  display: block;
+  position: absolute;
+  left: 221px;
+  top: 1202px;
+  position: absolute;
+}
+
+body,
+html {
+  height: 100%;
+  color: #006966;
+}
+
+
+#root {
+  /* The image used */
+  background-image: url("./imagenes/fondo.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.bandejaObservacion {
+  width: 100px;
+  height: 100px;
+}
+
+.pagarObservacion {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.botonEnviar {
+  width: 100px;
+  height: 100px;
+}
+
+.Observacion{
+  background-color: hsla(178, 98%, 23%, 0.60)
 }

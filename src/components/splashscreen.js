@@ -6,7 +6,7 @@ import cerveza from '../imagenes/cerveza.png'
 import hamburguesa from '../imagenes/hamburguesas.png'
 import papas from '../imagenes/papas fritas.png'
 import pizza from '../imagenes/pizza.png'
-import fondo from '../imagenes/fondo.png'
+// import fondo from '../imagenes/fondo.png'
 import cachaña from '../imagenes/cachaña.png'
 import { Link } from "react-router-dom";
 
@@ -14,7 +14,7 @@ export function Splashscreen() {
   return (
     
     <div>
-     <img className="fondo" src={fondo} alt=""/>
+     {/* <img className="fondo" src={fondo} alt=""/> */}
       <img className="logo" src={logo} alt="" />
       <Link id="touch" className="" to="/menuDisplay">
         <img className="touch" src={touch} alt="" />
