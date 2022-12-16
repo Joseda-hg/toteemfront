@@ -8,7 +8,11 @@ export function AgregarObservacion() {
     return (
         <>
             <p>◀ Atras</p>
-            <h3>Agregar observacion</h3>
+            <img className="bandejaObservacion imgred" src={bandeja} alt="" />
+            <div className= "RRR">
+                <h3 >Agregar observacion</h3> 
+            </div>
+            
             <div className="Observacion">
                 <b>
                     <p>
@@ -17,11 +21,18 @@ export function AgregarObservacion() {
                         palta solo pepinillos y mayo gracias
                     </p>
                 </b>
+                
             </div>
-            <img className="botonEnviar" src={logo} alt="" />
-            <p>Enviar</p>
-            <img className="bandejaObservacion imgred" src={bandeja} alt="" />
             <img className="pagarObservacion" src={pagar} alt="" />
+            <div className="PPP">
+                <p>Enviar</p> 
+            </div>
+           
+            
+            <img className="botonEnviar" src={logo} alt="" />
+            
+           
+           
         </>
     );
 }

@@ -24,6 +24,7 @@ code {
 
 .gridImg {
   width: 100px;
+  
 }
 
 .fondo {
@@ -125,12 +126,25 @@ html {
 }
 
 .botonEnviar {
+  margin-top: 100px;
+  margin-right: 60px;
+  margin-left: 10px;
   width: 100px;
   height: 100px;
 }
 
 .Observacion {
-  background-color: hsla(178, 98%, 23%, 0.60)
+  background-color: rgba(43, 136, 36, 0.397);
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 50px;
+  
+  
+}
+.Observacion b {
+  text-align: center;
+  
 }
 
 .botonConfirmacion {
@@ -139,3 +153,23 @@ html {
   background-color: #007d79de;
   padding: 15px;
 }
+.pagarObservacion{
+  margin-left: 270px;
+  padding: 25px;
+ 
+ 
+}
+.imgred{
+  margin-left:280px;
+  margin-bottom: 80px;
+  padding:20px;
+
+
+}
+.PPP{
+  margin-left: 300px;
+}
+.RRR{
+  margin-left: 50px;
+}
+
