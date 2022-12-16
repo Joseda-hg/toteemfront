@@ -29,8 +29,8 @@ code {
 
 .fondo {
   background-attachment: fixed;
-  transform: rotate(180deg);
-  /* width: 1080px; */
+  transform: rotate(-90deg);
+  /* width: 1080px; 
   /* height:1920px; */
 }
 
@@ -103,15 +103,14 @@ html {
   /* The image used */
   background-image: url(./imagenes/fondo.png);
 
-  /* Full height */
-  background-color: #007d79de;
-
   /* Center and scale the image nicely */
   /* background-position: center; */
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
   font-family: 'Open Sans', sans-serif;
+  
 }
+
 
 
 .bandejaObservacion {

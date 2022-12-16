@@ -6,7 +6,6 @@ import cerveza from '../imagenes/cerveza.png'
 import hamburguesa from '../imagenes/hamburguesas.png'
 import papas from '../imagenes/papas fritas.png'
 import pizza from '../imagenes/pizza.png'
-// import fondo from '../imagenes/fondo.png'
 import cachaña from '../imagenes/cachaña.png'
 import { Link } from "react-router-dom";
 
@@ -25,7 +24,9 @@ export function Splashscreen() {
       <img className="papas" src={papas} alt="" />
       <img className="pizza" src={pizza} alt="" />
       
+      
       </div>
+      
       
     
 
