@@ -88,12 +88,19 @@ html {
   height: 100%;
   /* color: #006966; */
   margin: 0;
+  background-image: url(./imagenes/fondo.png);
+  
+ 
+background-size: cover;
+  
+ 
+background-position: center;
 }
 
 
 #root {
   /* The image used */
-  background-image: url(./imagenes/fondo.png);
+  /*background-image: url(./imagenes/fondo.png);
 
   /* Center and scale the image nicely */
   /* background-position: center; */
