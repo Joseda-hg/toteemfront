@@ -5,6 +5,7 @@ import pagar from "../imagenes/pagar.png"
 import seguir from "../imagenes/seguir.png"
 import logo from "../imagenes/logo.png"
 import bandeja from "../imagenes/bandeja.png"
+import barra from "../imagenes/barra.png"
 
 const data = [
   { cantidad: "1", producto: "Hamburguesa", precio: "10000" },
@@ -15,7 +16,12 @@ const data = [
 export function Pedidopreview() {
   return (
     <>
+    <div className="CCC">
+      <img className="logopig" src={bandeja} alt="" />
+      
       <h1>Pedidos</h1>
+    </div>
+      
       <table className="default">
         <tr>
           <th>
@@ -37,18 +43,19 @@ export function Pedidopreview() {
             </tr>
           )
         })}
+        
         <tr>
           <td></td>
           <td> Total Compra:</td>
-          <td> 36000$</td>
+          <td> $ 36000</td>
         </tr>
       </table>
-      <p>Total de Compra</p>
-      <img className="logo" src={observacion} alt="" />
-      <img className="logo" src={pagar} alt="" />
-      <img className="logo" src={seguir} alt="" />
-      <img className="logo" src={logo} alt="" />
-      <img className="logo" src={bandeja} alt="" />
+   
+      <img className="logoobs" src={observacion} alt="" />
+      <img className="logopag" src={pagar} alt="" />
+      <img className="logoseg" src={seguir} alt="" />
+      <img className="logolog" src={logo} alt="" />
+      
     </>
   );
 }

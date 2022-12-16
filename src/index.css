@@ -171,4 +171,48 @@ html {
 .RRR{
   margin-left: 50px;
 }
+.CCC{
+  
+}
+.logoobs{
+  margin-top: 180px;
+  margin-left: 120px;
+ 
+  width: 50px;
+  height: 50px;
+}
+.logopag{
+  margin-top: 180px;
+  
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+}
+.logoseg{
+  margin-top: 180px;
 
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+}
+.logolog{
+  
+  margin-bottom: 10px;
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+}
+.logopig{
+  margin-top: 10px;
+  margin-left:300px;
+  width: 50px;
+  height: 50px;
+}
+.CCC h1{
+  margin-top: 100px;
+  margin-left: 120px;
+}
+.default{
+  margin-top: 20px;
+  margin-left: 100px;
+}
