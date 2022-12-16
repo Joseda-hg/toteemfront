@@ -116,11 +116,11 @@ html {
 }
 
 .botonEnviar {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: 60px;
   margin-left: 10px;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .Observacion {
@@ -144,27 +144,27 @@ html {
   padding: 15px;
 }
 .pagarObservacion{
-  margin-left: 270px;
-  padding: 25px;
+  margin-left: 250px;
+  width: 50px;
+  height: 50px;
  
  
 }
 .imgred{
   margin-left:280px;
   margin-bottom: 80px;
-  padding:20px;
+  width: 50px;
+  height: 50px;
 
 
 }
 .PPP{
-  margin-left: 300px;
+  margin-left: 250px;
 }
 .RRR{
   margin-left: 50px;
 }
-.CCC{
-  
-}
+
 .logoobs{
   margin-top: 180px;
   margin-left: 120px;
