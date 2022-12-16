@@ -29,7 +29,7 @@ code {
 .fondo {
   background-attachment: fixed;
   transform: rotate(180deg);
-  /* width: 1080px; */
+  /* width: 1080px; 
   /* height:1920px; */
 }
 
@@ -107,8 +107,10 @@ html {
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
   font-family: 'Open Sans', sans-serif;
+ size: '100%', '100%';
+ 
 }
 
 

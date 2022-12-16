@@ -8,7 +8,7 @@ export function Sidebar() {
     return (
         <div className="menu">
         <>
-        <div className="menuText">
+        <div id="menuText">
 <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Tragos</Accordion.Header>
