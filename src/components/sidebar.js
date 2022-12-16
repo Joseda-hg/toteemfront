@@ -8,8 +8,8 @@ export function Sidebar() {
     return (
         <div className="menu">
         <>
-        <div id="menuText">
-<Accordion>
+       
+<Accordion id="menuText">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Tragos</Accordion.Header>
         <Accordion.Body>
@@ -100,7 +100,7 @@ export function Sidebar() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion> 
-    </div>    
+     
         </>
         </div>
     

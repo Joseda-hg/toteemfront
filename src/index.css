@@ -27,14 +27,6 @@ code {
   
 }
 
-.fondo {
-  background-attachment: fixed;
-  transform: rotate(-90deg);
-  /* width: 1080px; 
-  /* height:1920px; */
-}
-
-
 .hamburguesa {
   width: 316px;
   height: 233px;
@@ -108,9 +100,8 @@ html {
   background-repeat: no-repeat;
   /*background-size: 100% 100%;*/
   font-family: 'Open Sans', sans-serif;
-  
 }
-
+.fondo
 
 
 .bandejaObservacion {

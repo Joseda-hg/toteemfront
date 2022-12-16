@@ -10,6 +10,7 @@ export function AgregarObservacion() {
             <p>◀ Atras</p>
             <img className="bandejaObservacion imgred" src={bandeja} alt="" />
             <div className= "RRR">
+                
                 <h3 >Agregar observacion</h3> 
             </div>
             
