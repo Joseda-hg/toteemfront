@@ -16,25 +16,23 @@
    top: 23px;
 }
 
-.fondo {
-   top: 0px;
-   background-attachment: fixed;
-   transform: rotate(180deg);
-   width: 1080px;
-   height: 1920px;
-}
 
 .menu {
    border: #707070;
    background-color: #069893;
    width: 255px;
    height: 1920px;
-   display: block;
+   display: flex;
    position: absolute;
-   top: 0px;
-   left: -20px;
 }
 
 #menuText{
-   
+   padding-top: 70%;
+   padding-left: 10%;
 }
+.sidebarItem{
+  background-color: black;
+
+  
+}
+
