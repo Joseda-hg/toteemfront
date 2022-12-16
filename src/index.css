@@ -93,19 +93,20 @@ code {
 body,
 html {
   height: 100%;
-  color: #006966;
+  /* color: #006966; */
+  margin: 0;
 }
 
 
 #root {
   /* The image used */
-  background-image: url("./imagenes/fondo.png");
+  background-image: url(./imagenes/fondo.png);
 
   /* Full height */
-  height: 100%;
+  background-color: #007d79de;
 
   /* Center and scale the image nicely */
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   /*background-size: 100% 100%;*/
   font-family: 'Open Sans', sans-serif;
