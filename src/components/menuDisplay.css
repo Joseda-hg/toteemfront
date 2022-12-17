@@ -23,7 +23,9 @@
    width: 255px;
    height: 1920px;
    display: flex;
-   position: absolute;
+   position:absolute;
+   
+   
 }
 
 #menuText{
