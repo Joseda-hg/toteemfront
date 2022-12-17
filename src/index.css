@@ -24,10 +24,12 @@ code {
 .logo {
   width: 714px;
   height: 377px;
-  display: block;
+  display: flex;
   position: absolute;
   top: 223px;
-  left: 183px;
+ margin-left: 40%;
+
+ 
 }
 
 .gridImg {
@@ -41,7 +43,7 @@ code {
   display: block;
   position: absolute;
   top: 813px;
-  left: -98px;
+  left:15%;
 }
 
 .cerveza {
@@ -50,7 +52,7 @@ code {
   display: block;
   position: absolute;
   top: 687px;
-  left: 236px;
+  left:35%;
 }
 
 .papas {
@@ -58,50 +60,60 @@ code {
   height: 217px;
   display: block;
   position: absolute;
-  left: 472px;
+  right: 35%;
   top: 821px;
 }
 
 .pizza {
   width: 463px;
   height: 232px;
-  display: block;
+  display: flex;
   position: absolute;
-  left: 909px;
+  right: 15%;
   top: 801px;
+}
+#tap{
+  position: relative;
+  margin-left: 30%;
 }
 
 .touch {
   width: 288px;
   height: 407px;
-  display: block;
   position: absolute;
   left: 428px;
   top: 1395px;
-
 }
 
 .cachaña {
   width: 639px;
   height: 576px;
-  display: block;
   position: absolute;
   left: 221px;
   top: 1202px;
   position: absolute;
+  opacity: 0.3;
 }
+
 
 body,
 html {
-  height: 100%;
-  /* color: #006966; */
+ /* height: 100%;*/
   margin: 0;
+  background-image: url(./imagenes/fondo.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 150%;
+object-fit: cover;
 }
+
 
 
 #root {
   /* The image used */
-  background-image: url(./imagenes/fondo.png);
+  /*background-image: url(./imagenes/fondo.png);
 
   /* Center and scale the image nicely */
   /* background-position: center; */
@@ -109,7 +121,7 @@ html {
   /*background-size: 100% 100%;*/
   font-family: 'Open Sans', sans-serif;
 }
-.fondo
+
 
 
 .bandejaObservacion {
