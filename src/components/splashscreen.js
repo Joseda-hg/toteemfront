@@ -13,17 +13,19 @@ export function Splashscreen() {
   return (
     
     <div>
-     {/* <img className="fondo" src={fondo} alt=""/> */}
-      <img className="logo" src={logo} alt="" />
-      <Link id="touch" className="" to="/menuDisplay">
-        <img className="touch" src={touch} alt="" />
-        <img className="cachaña" src={cachaña} alt="" />
+     <div id="tap"  >
+      <Link className="" to="/menuDisplay">
+        <img class="foreground" className="touch" src={touch} alt="" />
+        <img class="background" className="cachaña" src={cachaña} alt="" />
       </Link>
+      </div>
+      <div  id="productos">
+      <img className="logo" src={logo} alt="" />
       <img className="cerveza" src={cerveza} alt="" />
       <img className="hamburguesa" src={hamburguesa} alt="" />
       <img className="papas" src={papas} alt="" />
       <img className="pizza" src={pizza} alt="" />
-      
+      </div>
       
       </div>
       
