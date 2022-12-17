@@ -128,15 +128,16 @@ object-fit: cover;
 }
 
 .botonEnviar {
-  margin-top: 50px;
+  margin-top: 80%;
   margin-right: 60px;
   margin-left: 10px;
-  width: 50px;
-  height: 50px;
+  
+  width: 236px;
+  height: 125px;
 }
 
 .Observacion {
-  background-color: rgba(43, 136, 36, 0.397);
+  background-color: #01767291;
   margin-left: 50px;
   margin-top: 10px;
   margin-right: 50px;
@@ -146,6 +147,7 @@ object-fit: cover;
 }
 .Observacion b {
   text-align: center;
+font-size: 50px;
   
 }
 
@@ -156,25 +158,26 @@ object-fit: cover;
   padding: 15px;
 }
 .pagarObservacion{
-  margin-left: 250px;
-  width: 50px;
-  height: 50px;
+  margin-left: 2600px;
+  width:150px;
+  height: 150px;
  
  
 }
 .imgred{
-  margin-left:280px;
+  margin-left:2600px;
   margin-bottom: 80px;
-  width: 50px;
-  height: 50px;
-
-
+  width: 140px;
+  height: 126px;
 }
 .PPP{
-  margin-left: 250px;
+  margin-left: 2600px;
+  font-size: 60px;
 }
 .RRR{
   margin-left: 50px;
+  font-size: 60px;
+  
 }
 
 .logoobs{

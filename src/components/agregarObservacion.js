@@ -17,9 +17,7 @@ export function AgregarObservacion() {
             <div className="Observacion">
                 <b>
                     <p>
-                        Quiero una cerveza sin agua y una
-                        hamburguesa sin pan carne tomate y
-                        palta solo pepinillos y mayo gracias
+                      me gustaria una hamburguesa sin pepinillo y sin mayonesa gracias.
                     </p>
                 </b>
                 
